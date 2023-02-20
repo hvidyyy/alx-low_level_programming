@@ -18,13 +18,11 @@ int main(void)
 	{
 		putchar(num + '0');
 		if (num == 9)
-			continue;
-		
+		continue;
 		putchar(',');
 		putchar(' ');
 	}
 
 	putchar('\n');
-
 	return (0);
 }
